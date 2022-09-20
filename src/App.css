@@ -1,0 +1,126 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-image: url('./assets/main-background.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #642b73; /* fallback for old browsers 
+  background: -webkit-linear-gradient(to right, #642b73, #c6426e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 5px 20px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+.main-container h1 {
+  text-align: center;
+  width: 80%;
+  font-size: 2.5rem;
+  margin: 1vh 0;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+}
+
+.password-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-div input{
+  width: 100%;
+  height: 100%;
+  margin: 1vh 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.password-div button {
+  height: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.password-div button:hover {
+  border: 2px solid black;
+}
+
+.length-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+.length-div input {
+  font-size: 1.5rem;
+}
+
+.checkbox-div {
+  width: 100%;
+}
+
+.option-div {
+  margin: 1vh 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option-div label {
+  margin-right: 2vw;
+}
+
+.option-div input{
+  margin-left: 2vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.generate-btn {
+  font-size: 2rem;
+  margin: 2vh 0 1vh 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid transparent;
+  background-color: white;
+  color: black;
+}
+
+.generate-btn:hover {
+  border: 1px solid white;
+
+  background-color: transparent;
+  color: white;
+}
+
+.errors-div {
+  margin: 2vh 0;
+  width: 100%;
+  text-align: left;
+}
+
+.errors-div p {
+  font-size: 1.2rem;
+  margin: 0.5vh 0;
+}
