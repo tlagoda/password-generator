@@ -81,7 +81,7 @@ function App() {
         <h1>PASSWORD GENERATOR</h1>
         <div className="password-div">
           <input type="text" id="password" readOnly value={password} />
-          <button onClick={copyPassword}><CgCopy size={25} /></button>
+          <div className='copyDiv' onClick={copyPassword}><CgCopy size={30} style={{verticalAlign: 'bottom'}}/></div>
         </div>
         <div className="length-div">
           <span>Length</span>
